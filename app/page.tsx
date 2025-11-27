@@ -109,7 +109,7 @@ export default function Home() {
               <div className="relative px-6 pb-6">
                 {/* Avatar */}
                 <div className="relative -mt-16 mb-4">
-                  <div className="inline-block rounded-full border-4 border-white dark:border-slate-800">
+                  <div className="inline-block rounded-full dark:border-slate-800">
                     <div
                       className={`flex h-28 w-28 items-center justify-center rounded-full bg-gradient-to-br ${user.gradient} text-xl font-bold text-white`}
                     >
@@ -117,7 +117,7 @@ export default function Home() {
                     </div>
                   </div>
                   {user.status === 'active' && (
-                    <div className="absolute bottom-1 right-1 h-5 w-5 rounded-full border-4 border-white bg-green-500 dark:border-slate-800"></div>
+                    <div className="absolute bottom-1 right-1 h-5 w-5 rounded-full bg-green-500 dark:border-slate-800"></div>
                   )}
                 </div>
 
